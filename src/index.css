@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    border-color: rgba(255, 255, 255, 0.08);
+  }
+}
+
+/* Custom minimal scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(150, 150, 150, 0.25);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(150, 150, 150, 0.45);
+}
+
+/* Smooth animations and tap highlights */
+button, a, input, select {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.font-serif-display {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "Culinaire - Modern Restaurant & Table Booking",
+  "description": "Minimalist cross-platform restaurant app for menu browsing, online table booking with availability alerts, real-time order tracking, secure payments, offline favorites, and master admin dashboard with analytics export.",
+  "requestFramePermissions": ["geolocation", "notifications"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
